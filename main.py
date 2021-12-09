@@ -1,8 +1,8 @@
-from diaries.DiarySample import DiarySmaple
+from diaries.DiarySample import DiarySample
 from diaries.OnogiDiary import OnogiDiary
 
 diaries = [
-    DiarySmaple(),
+    DiarySample(),
     OnogiDiary(),
  ]
 
