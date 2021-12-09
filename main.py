@@ -1,4 +1,5 @@
 from diaries.DiarySample import DiarySmaple
+from diaries.suzuki_Diary import DiarySmaple
 
 diaries = [DiarySmaple(), ]
 
