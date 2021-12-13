@@ -3,13 +3,15 @@ from diaries.SoraDiary import SoraDiary
 from diaries.WadaDiary import WadaDiary
 from diaries.suzuki_Diary import suzuki_Diary
 from diaries.NagisaDiary import NagisaDiary
+from diaries.OnogiDiary import OnogiDiary
 
 diaries = [
     DiarySample(),
     WadaDiary(),
     suzuki_Diary(),
     SoraDiary(),
-    NagisaDiary()
+    NagisaDiary(),
+    OnogiDiary()
  ]
 
 for d in diaries:
