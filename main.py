@@ -1,11 +1,11 @@
-from diaries.DiarySample import DiarySmaple
+from diaries.DiarySample import DiarySample
 from diaries.SoraDiary import SoraDiary
 from diaries.WadaDiary import WadaDiary
 from diaries.suzuki_Diary import suzuki_Diary
 from diaries.NagisaDiary import NagisaDiary
 
 diaries = [
-    DiarySmaple(),
+    DiarySample(),
     WadaDiary(),
     suzuki_Diary(),
     SoraDiary(),
