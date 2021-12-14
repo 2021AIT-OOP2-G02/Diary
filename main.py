@@ -4,6 +4,7 @@ from diaries.WadaDiary import WadaDiary
 from diaries.suzuki_Diary import suzuki_Diary
 from diaries.NagisaDiary import NagisaDiary
 from diaries.OnogiDiary import OnogiDiary
+from diaries.koikeDiary import koikeDiary
 
 diaries = [
     DiarySample(),
@@ -11,7 +12,8 @@ diaries = [
     suzuki_Diary(),
     SoraDiary(),
     NagisaDiary(),
-    OnogiDiary()
+    OnogiDiary(),
+    koikeDiary()
  ]
 
 for d in diaries:
