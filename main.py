@@ -1,9 +1,20 @@
 from diaries.DiarySample import DiarySample
+from diaries.SoraDiary import SoraDiary
+from diaries.WadaDiary import WadaDiary
+from diaries.suzuki_Diary import suzuki_Diary
+from diaries.NagisaDiary import NagisaDiary
+from diaries.OnogiDiary import OnogiDiary
 from diaries.koikeDiary import koikeDiary
 
-diaries = [DiarySample(), 
-            koikeDiary(),
-        ]
+diaries = [
+    DiarySample(),
+    WadaDiary(),
+    suzuki_Diary(),
+    SoraDiary(),
+    NagisaDiary(),
+    OnogiDiary(),
+    koikeDiary()
+ ]
 
 for d in diaries:
     print("----")
