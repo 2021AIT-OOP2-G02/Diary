@@ -1,7 +1,7 @@
-from diaries.DiarySample import DiarySmaple
+from diaries.DiarySample import DiarySample
 from diaries.koikeDiary import koikeDiary
 
-diaries = [DiarySmaple(), 
+diaries = [DiarySample(), 
             koikeDiary(),
         ]
 
