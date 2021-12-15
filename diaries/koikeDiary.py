@@ -1,6 +1,6 @@
 from diaries.AbstractDiary import AbstractDiary
 
-class DiarySample(AbstractDiary):
+class koikeDiary(AbstractDiary):
     def get_data(self):
         return "2021-12-09"
     
