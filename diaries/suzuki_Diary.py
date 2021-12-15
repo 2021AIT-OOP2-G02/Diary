@@ -8,4 +8,4 @@ class suzuki_Diary(AbstractDiary):
         return ":何もない一日だった何もない一日だった何もない一日だった"
     
     def get_author(self):
-        return "Sample"
+        return "Ryosuke"
